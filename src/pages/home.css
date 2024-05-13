@@ -1,0 +1,105 @@
+.main {
+    background: #000;
+    color: #fff;
+    min-height: 88vh;
+}
+
+.heading {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading p {
+    color: white;
+    font-size: 0.6em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form>input {
+    background-color: rgb(66, 65, 65);
+    border: 2px solid rgb(157, 143, 143);
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner>input {
+    background-color: rgb(66, 65, 65);
+    border: 2px solid rgb(157, 143, 143);
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 49%;
+}
+
+.pwdipt {
+    background-color: rgb(66, 65, 65);
+    border: 2px solid rgb(157, 143, 143);
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.password {
+    position: relative;
+    width: 49%;
+}
+
+.eyeImage {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.eyeImage * {
+    background: rgb(66, 65, 65);
+}
+
+
+form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 25%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.3em;
+    background-color: #156106;
+}
+
+form button:hover {
+    background-color: #1f7c1f;
+    box-shadow: 10px 10px 20px rgba(0, 255, 0, 0.256),
+        -10px 10px 20px rgba(0, 255, 0, 0.256),
+        10px -10px 20px rgba(0, 255, 0, 0.256),
+        -10px -10px 20px rgba(0, 255, 0, 0.256);
+}
+.nodata{
+    font-size: larger;
+    width: 100%;
+    text-align: center;
+    padding-top: 5vh;
+}
