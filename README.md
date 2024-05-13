@@ -19,7 +19,7 @@ This is a password manager application built with React, Express, and MongoDB. I
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/react-password-manager.git
+    git clone https://github.com/Kanishk-mittal/Password-Manager
     ```
 
 2. Install dependencies:
